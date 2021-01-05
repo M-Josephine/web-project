@@ -1,0 +1,1 @@
+This project is a side project aiming to discover html/css. 

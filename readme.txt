@@ -1,1 +1,1 @@
-This project is a side project aiming to discover html/css. 
+This project is a side project aiming to practice html/css and GIT.

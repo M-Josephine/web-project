@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset= "utf-8">
+  <title>Web project</title>
+  <link rel="stylesheet" href="Testyourwine.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+</head>
+  <body>
+
+    <nav>
+      <ul>        
+        <li><a href="home.html">Home</a></li>
+        <li><a href="#">Test your wine</a></li>
+        <li><a href="#">Contact me</a></li>
+      </ul> 
+
+    </nav>
+
+    <main>
+
+        <h2>Let's test your wine!</h2>
+
+        <p>Based on physicochemical properties and machine learning, we will give you an idea of your wine's quality. </p>
+        
+        <h2 id="properties">Enter the properties</h2>
+        <form>
+            <input type="search" placeholder="Fixed acidity">
+            <input type="search" placeholder="Volatile acidity">
+            <input type="search" placeholder="Citric acid">
+            <input type="search" placeholder="Residual sugar">
+            <input type="search" placeholder="chlorides">
+            <input type="search" placeholder="Free sulfur dioxide">
+            <input type="search" placeholder="Total sulfur dioxide">
+            <input type="search" placeholder="Density">
+            <input type="search" placeholder="pH">
+            <input type="search" placeholder="Sulphates">
+            <input type="search" placeholder="Alcohol">
+            <input type="submit" value="Go!">
+        </form>
+
+        <p>To train the model of machine learning, I used a dataset from Kaggle, based on physicochemical tests (input variables) and a sensory variable (score between 0 and 10). I set a cutoff between good quality wine (score >= 7) and low quality wine (score < 7). To predict the quality, I used two classifiers, KNN and Decision Tree and tuned the hyperparameters with GridSeachCV.</p>
+        <p>References: P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009. </p>
+        
+
+    </main>
+
+    <footer>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/josephine-maury/?locale=en_US" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="https://github.com/M-Josephine?tab=repositories" target="_blank" rel="noopener noreferrer">Github</a></li>
+      </ul>
+      <p>Made by M-Josephine</p>
+      
+
+    </footer>
+
+  </body>
+
+
+</html>

@@ -1,16 +1,21 @@
 
 body {
-    background-color: rgb(237, 239, 243);
+    background-color: rgb(235, 222, 222);
     font-size: 20px;
     font-family: 'Architects Daughter', cursive;
     align-content: stretch;
   }
 
+ul {
+    list-style-type: none;
+}
 
+a {
+    text-decoration: none;
+}
 
 nav {
     background-color: rgb(75, 12, 12);
-    font-size: 1.2em;
 }
 
 
@@ -30,28 +35,88 @@ nav ul li a {
 }
 
 nav ul li a:visited:hover{
-    color: rgb(163, 78, 78);
+    color: rgb(206, 122, 122);
+
+}
+
+main{
+    max-width: 700px;
+    margin: auto;
+
+}
+
+main p {   
+    font-size: 0.8em;
+    max-width: 700px;
+    margin: auto;
+    margin-block-start: 3em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#banniere{
+    position: relative;
+    width: 700px;
+    height: 200px;
+    margin-block-start: 3em;
+
+}
+
+#image-wine {
+    background-image: url(wine2.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 200px;
+    height: 300px;
+    opacity:0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+   
 
 }
 
 
-main  {   position: relative;
-
+#text{
+    color: rgb(82, 17, 17);
+    position: relative;
+    padding-top: 1px;
+    padding-left: 30px;
 }
 
-#banniere {
-    background-image: url(wine.jpg);
-    width: 508px;
-    height: 339px;
-
+#text h2 {
+    font-size: 1.5em;
 }
 
+#text p{
+    font-size: 1.2em;
+    margin-block-start: 1.2em;
+}
+
+#text p a {
+    color: rgb(82, 17, 17);
+}
 
 .wine {
     align-items: center;
     float:left;
-    width: 20%;
+    width: 32%;
     padding: 2px;
+
+}
+
+.wine img{
+    border-radius: 25px;
+}
+
+
+.wine img:hover{
+    opacity:0.8
+}
+
+.block-main {
+    background: rgb(194, 109, 109);
 
 }
 
@@ -60,33 +125,33 @@ h1 {
     
 }
 
-
-input {
-
+h2 {
+    margin-block-start: 2em;
 }
+
 
 footer {
     background-color: rgb(75, 12, 12);
-    margin-block-start: 1.4em;
-    margin-block-end: 1.4em;
-    font-size: 1.2em;
+    margin-block-start: 3em;
 }
 
 footer ul {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
+    text-align: center;
 }
 
 footer ul li a {
     color: rgb(253, 228, 228);
+
 }
 
 footer ul li a:visited:hover{
     color: rgb(163, 78, 78);
+
+}
+
+footer p {
+    color: rgb(253, 228, 228);
+    font-size: 0.7em;
+    text-align: center;
 
 }
